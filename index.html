@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forcast</title>
+</head>
+<link rel="stylesheet" href="index.css"  id="styles">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3845/3845731.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans+SC:wght@300&family=Amatic+SC&family=Cinzel:wght@400;700&family=Comfortaa:wght@300;500&family=Electrolize&family=Martian+Mono:wght@100&family=Rajdhani:wght@300&family=Righteous&family=Rubik+Bubbles&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans+SC:wght@300&family=Amatic+SC&family=Cinzel:wght@400;700&family=Comfortaa:wght@300;500&family=Electrolize&family=Martian+Mono:wght@100&family=Quantico&family=Rajdhani:wght@300&family=Righteous&family=Rubik+Bubbles&family=Satisfy&display=swap" rel="stylesheet">
+<body>
+    <nav>
+        <div class="nav-bar-top">
+            <div class="leftside">
+                <li><img src="https://cdn-icons-png.flaticon.com/512/1163/1163734.png" alt="" height="40px" width="40px"></li>
+            <li>Forecast</li>
+       
+            </div>
+        
+        </div>
+    </nav>
+  <nav>
+    <div class="nav-bar">
+        <div class="search">
+            <div class="main-search">
+                <input type="" class="search-city" placeholder="Search For cities">
+        </div>
+            <div class="search-button">Search</div>
+        </div>
+        <div class="modes"><i class="bi bi-moon-stars mode"></i></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+        <div class="l-f">
+            <div class="l-f-l">
+            <div class="city-name" style="font-size: 2.5em; font-weight: bolder;">Welcom to my WeatherApp "FORECAST"</div>
+            <div class="Timezone">You can Search your City to get the weather report</div>
+            <div class="Temperature" style="display: flex;"><div class="big" style="  font-size:50px;"></div> <div class="description"></div></div>
+            </div>
+            <div class="l-f-r">
+                <div class="today-weather-img">
+
+                </div>
+            </div>
+        </div>
+        <div class="l-s">
+            <div class="heading">TODAY'S FORCAST:</div>
+            <div class="details">
+                <div class="details-box">
+                    <li class="6am">
+                        <div class="time time00"></div>
+                        <div class="timely-img00"></div>
+                        <div class="timely-img00temp"></div>
+                    </li>
+                    <li class="6am">
+                        <div class="time time04"></div>
+                        <div class="timely-img04"></div>
+                        <div class="timely-img04temp"></div>
+                    </li>
+                    <li class="6am">
+                        <div class="time time08"></div>
+                        <div class="timely-img08"></div>
+                        <div class="timely-img08temp"></div>
+                    </li>
+                    <li class="6am">
+                        <div class="time time12"></div>
+                        <div class="timely-img12"></div>
+                        <div class="timely-img12temp"></div>
+                    </li>
+                    <li class="6am">
+                        <div class="time time16"></div>
+                        <div class="timely-img16"></div>
+                        <div class="timely-img16temp"></div>
+                    </li>
+                    <li class="6am">
+                        <div class="time time20"></div>
+                        <div class="timely-img20"></div>
+                        <div class="timely-img20temp"></div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="l-t">
+            <div class="headings">More Informations</div>
+            <div class="info-more">
+                <div class="col-1">
+                    <li class="hum"></li>
+                    <li class ="ws"></li>
+                </div>
+                <div class="col-2">
+                    <li class="pr"></li>
+                    <li class="vis"></li>
+                </div>
+                <div class="col-3">
+                    <li class="sr"></li>
+                    <li class="ss"></li>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="heading-7days">14-Day's Weather Forecast</div>
+        <div class="sevenday">
+            <li>
+                <div class="day1"></div>
+                <div class="weather-img1"></div>
+                <div class="weather1"></div>
+                <div class="temp1"></div>
+            </li>
+            <li>
+                <div class="day2"></div>
+                <div class="weather-img2"> </div>
+                <div class="weather2"></div>
+                <div class="temp2"></div>
+            </li>
+            <li>
+                <div class="day3"></div>
+                <div class="weather-img3"></div>
+                <div class="weather3"></div>
+                <div class="temp3"></div>
+            </li>
+            <li>
+                <div class="day4"></div>
+                <div class="weather-img4"></div>
+                <div class="weather4"></div>
+                <div class="temp4"></div>
+            </li>
+            <li>
+                <div class="day5"></div>
+                <div class="weather-img5"></div>
+                <div class="weather5"></div>
+                <div class="temp5"></div>
+            </li>
+            <li>
+                <div class="day6"></div>
+                <div class="weather-img6"></div>
+                <div class="weather6"></div>
+                <div class="temp6"></div>
+            </li>
+            <li>
+                <div class="day7"></div>
+                <div class="weather-img7"> </div>
+                <div class="weather7"></div>
+                <div class="temp7"></div>
+            </li>
+            <li>
+                <div class="day8"></div>
+                <div class="weather-img8"> </div>
+                <div class="weather8"></div>
+                <div class="temp8"></div>
+            </li>
+            <li>
+                <div class="day9"></div>
+                <div class="weather-img9"> </div>
+                <div class="weather9"></div>
+                <div class="temp9"></div>
+            </li>
+            <li>
+                <div class="day10"></div>
+                <div class="weather-img10"> </div>
+                <div class="weather10"></div>
+                <div class="temp10"></div>
+            </li>
+            <li>
+                <div class="day11"></div>
+                <div class="weather-img11"> </div>
+                <div class="weather11"></div>
+                <div class="temp11"></div>
+            </li>
+            <li>
+                <div class="day12"></div>
+                <div class="weather-img12"> </div>
+                <div class="weather12"></div>
+                <div class="temp12"></div>
+            </li>
+            <li>
+                <div class="day13"></div>
+                <div class="weather-img13"> </div>
+                <div class="weather13"></div>
+                <div class="temp13"></div>
+            </li>
+            <li>
+                <div class="day14"></div>
+                <div class="weather-img14"> </div>
+                <div class="weather14"></div>
+                <div class="temp14"></div>
+            </li>
+        </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="crossorigin="anonymous"></script>
+<script>
+// let a,b;
+
+let arrayday= ["SUN","MON","TUE","WED","THERS","FRI","SAT"];
+var weekday=new Date().getDay();
+function icons(a,b,c){
+ let link ="./images/"+a+".png";
+ $("."+b).css("background-image","url("+link+")");
+ $("."+b+"temp").text(c+"°C");
+}
+
+function sevend(d,x,d_icon,w_img,des,cond,max,min,t){
+    let link ="./images/"+d_icon+".png";
+    $("."+d).text(arrayday[(x)%7]);
+    $("."+w_img).css("background-image","url("+link+")");
+    $("."+des).text(cond);
+    $("."+t).text(max+" / "+min);
+}
+
+
+
+$(".modes").click(function(){
+    let x = $("#styles").attr('href');
+    if(x=="indexlight.css"){
+        $("#styles").attr('href','index.css');
+        $(".mode").removeClass("bi-brightness-high-fill").addClass("bi-moon-stars");
+    }
+    else{
+        
+        $("#styles").attr('href','indexlight.css');
+        $(".mode").removeClass("bi-moon-stars").addClass("bi-brightness-high-fill");
+    }
+})
+$(".search-button").click(function(){
+    let city = $(".search-city").val();
+    // console.log(city);
+    //  $("..l-f-r").css(" background-size","contain");
+
+fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+city+"?unitGroup=metric&key=V7ZVPYM3WHLD522MRBBPWRGCT&contentType=json")
+  .then((response) => response.json())
+  .then((data) => {
+
+    timezone = data.timezone;
+    // temperature = data.days[0].temp;
+        
+    current_hour = new Date().getHours();
+    // console.log(current_hour);
+    temperature= data.days[0].hours[current_hour].temp;
+    temperature_icon = data.days[0].hours[current_hour].icon;
+    
+    descript = data.description;
+    // temp_des = temperature + " - " + descript
+    $(".Timezone").text(timezone);
+    $(".big").text(temperature +"°C");
+    $(".description").text(descript);
+    $(".city-name").html(data.address)
+
+
+    hourly_00 = data.days[0].hours[0].temp;
+    hourly_00_icon = data.days[0].hours[0].icon;
+    
+    hourly_04 = data.days[0].hours[4].temp;
+    hourly_04_icon = data.days[0].hours[4].icon;
+    
+    hourly_08 = data.days[0].hours[8].temp;
+    hourly_08_icon = data.days[0].hours[8].icon;
+    
+    hourly_12 = data.days[0].hours[12].temp;
+    hourly_12_icon = data.days[0].hours[12].icon;
+    
+    hourly_16 = data.days[0].hours[16].temp;
+    hourly_16_icon = data.days[0].hours[16].icon;
+    
+    hourly_20 = data.days[0].hours[20].temp;
+    hourly_20_icon = data.days[0].hours[20].icon;
+    $(".time00").text("00:00")
+    $(".time04").text("04:00 AM")
+    $(".time08").text("08:00 AM")
+    $(".time12").text("12:00")
+    $(".time16").text("04:00 PM")
+    $(".time20").text("08:00 PM")
+    icons(hourly_00_icon,"timely-img00",hourly_00);
+    icons(hourly_04_icon,"timely-img04",hourly_04);
+    icons(hourly_08_icon,"timely-img08",hourly_08);
+    icons(hourly_12_icon,"timely-img12",hourly_12);
+    icons(hourly_16_icon,"timely-img16",hourly_16);
+    icons(hourly_20_icon,"timely-img20",hourly_20);
+
+    $(".l-f-r").css("background-image","url(./images/"+temperature_icon+".png)");
+
+    humidity =data.days[0].humidity;
+    windspeed = data.days[0].windspeed;
+    Pressure = data.days[0].pressure;
+    Visibility = data.days[0].visibility;
+    sunrisetime = data.days[0].sunrise;
+    sunsettime = data.days[0].sunset;
+$(".hum").html('<i class="bi bi-droplet " style="margin-right:10px;"></i> Humidity :'+humidity+' %');
+$(".ws").html('<i class="bi bi-wind" style="margin-right:10px;"></i> WindSpeed :'+windspeed+' km/hr');
+$(".pr").html('<i class="bi bi-cloud-fog-fill" style="margin-right:10px;"></i> Pressure :'+Pressure+' hPa');
+$(".vis").html('<i class="bi bi-bullseye" style="margin-right:10px;"></i> Visibility: '+Visibility);
+$(".sr").html('<i class="bi bi-sunrise" style="margin-right:10px;"></i> SunriseTime: '+sunrisetime);
+$(".ss").html('<i class="bi bi-sunset" style="margin-right:10px;"></i> SunsetTime: '+sunsettime);
+
+$(".sevenday li").css("border-top","1px solid rgba(236, 234, 234, 0.5)")
+
+for(let i=1;i<=14;i++){
+    condition = data.days[i-1].conditions;
+    icon = data.days[i-1].icon;
+    max = data.days[i-1].tempmax;
+    min = data.days[i-1].tempmin;
+        
+        sevend("day"+i,weekday+i-1,icon,"weather-img"+i,"weather"+i,condition,max,min,"temp"+i);
+
+}
+
+
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})
+</script>
+
+</html>
